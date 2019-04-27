@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=xx, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice</title>
+    <style type="text/css">
+    div.dice {
+        float: left;
+        width: 32px;
+        background: #f5f5f5;
+        border: #999 1px solid;
+        padding: 10px;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="dice" id="dice1">0</div>
+    <div class="dice" id="dice2">0</div>
+
+    <button class="roll" onclick="rollDice()">Roll dice</button>
+    <h2 id="status" style="clear:left;"></h2>
+    <script src="dice.js"></script>
+</body>
+
+</html>
